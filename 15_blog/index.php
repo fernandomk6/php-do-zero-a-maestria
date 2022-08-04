@@ -1,5 +1,11 @@
 <?php
   include_once("templates/header.php");
+  session_start();
+
+  if (isset($_SESSION["novo_post"]) && !empty($_SESSION['novo_post'])) {
+    array_push($posts, $_SESSION['novo_post']);
+    $_SESSION['novo_post'] = "";
+  }
 ?>
   <main>
     <div id="title-container">

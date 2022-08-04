@@ -23,6 +23,7 @@
     <nav>
       <ul id="navbar">
         <li><a href="<?= $BASE_URL ?>" class="nav-link">Home</a></li>
+        <li><a href="<?= $BASE_URL ?>novo-post.php" class="nav-link">Novo Post</a></li>
         <li><a href="#" class="nav-link">Categorias</a></li>
         <li><a href="#" class="nav-link">Sobre</a></li>
         <li><a href="<?= $BASE_URL ?>contato.php" class="nav-link">Contato</a></li>

@@ -1,7 +1,11 @@
 <?php
   include_once("templates/header.php");
+    
 
   if(isset($_GET['id'])) {
+
+    // Redirecionando para o unico post original
+    $_GET['id'] = 1;
 
     $postId = $_GET['id'];
     $currentPost;
